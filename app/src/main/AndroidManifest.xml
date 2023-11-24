@@ -2,6 +2,20 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission
+        android:name="android.permission.INTERACT_ACROSS_USERS_FULL"
+        tools:ignore="ProtectedPermissions" />
+
     <application
         android:allowBackup="true"
         android:background="@color/my_primary"
@@ -12,6 +26,7 @@
         android:roundIcon="@drawable/logotransport"
         android:supportsRtl="true"
         android:theme="@style/Theme.TransportProyecto"
+        android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
             android:name=".Registro"
@@ -20,15 +35,12 @@
             android:name=".RecuperarC"
             android:exported="false" />
         <activity
-            android:name=".ui.dashboard.RecuperarC"
+            android:name=".Bienvenidos1"
             android:exported="false" />
         <activity
             android:name=".Menu"
             android:exported="false"
             android:label="@string/title_activity_menu" />
-        <activity
-            android:name=".vistaenblanco"
-            android:exported="false" />
         <activity
             android:name=".Login"
             android:exported="false" />

@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.transportproyecto"
-        minSdk = 19
+        minSdk = 21
         targetSdk = 33
         versionCode = 1
         versionName = "1.0"
@@ -35,6 +35,7 @@ android {
     }
     buildFeatures {
         viewBinding = true
+        dataBinding = true
     }
 }
 
@@ -75,12 +76,6 @@ dependencies {
 
     /*Card*/
     implementation("androidx.cardview:cardview:1.0.0")
-
-    /*Motion Toast*/
-    implementation ("com.github.Spikeysanju:MotionToast:1.4")
-
-    /*Navigation Bar */
-    implementation ("com.etebarian:meow-bottom-navigation:1.3.1")
 
     /*Splash Screen*/
     implementation("androidx.core:core-splashscreen:1.0.1")
