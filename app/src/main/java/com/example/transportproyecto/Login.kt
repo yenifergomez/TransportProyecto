@@ -3,9 +3,6 @@ package com.example.transportproyecto
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.inputmethod.InputMethodManager
-import android.widget.Button
-import android.widget.TextView
 import android.widget.Toast
 import androidx.core.util.PatternsCompat
 import com.example.transportproyecto.client.ApiClient
@@ -24,40 +21,18 @@ class Login : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        ////se conecta a la vista de el login
 
         clickListener()
 
-        val irLogin = findViewById<TextView>(R.id.RegistraUsuario)
-        irLogin.setOnClickListener{
-            LoginIr()
+        binding.btnRegister.setOnClickListener {
+            startActivity(Intent(this@Login, Registro::class.java))
         }
-    }
-    private fun LoginIr (){
-        val i = Intent(this,Registro::class.java)
-        startActivity(i)
 
-        ////se conecta a la vista de olvido su contraseña
-
-        val RegresarInicioDeSesion = findViewById<TextView>(R.id.OlvidoSuContraseña)
-        RegresarInicioDeSesion .setOnClickListener{
-            IrInicioDeSesion()
-        }
-    }
-    private fun IrInicioDeSesion (){
-        val i = Intent(this,RecuperarC::class.java)
-        startActivity(i)
-
-
-
-        val btn: Button = findViewById(R.id.Button)
-        btn.setOnClickListener{
-            val intent: Intent = Intent(this, Menu::class.java)
-            startActivity(intent)
+        binding.btnOlvidarContrasena.setOnClickListener {
+            startActivity(Intent(this@Login, RecuperarC::class.java))
         }
 
     }
-
 
     private fun clickListener() {
         binding.btnLogin.setOnClickListener{
@@ -154,15 +129,5 @@ class Login : AppCompatActivity() {
             true
         }
     }
-
-   /* private fun hideKeyboard() {
-        val imm = getSystemService(INPUT_METHOD_SERVICE) as InputMethodManager
-        imm.hideSoftInputFromWindow(binding.viewRoot.windowToken, 0)
-    }*/
-
-
-
-
-
 
 }
