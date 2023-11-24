@@ -108,7 +108,7 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/contraseña"
+                android:id="@+id/contrasena"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:drawableEnd="@drawable/password_icon"
@@ -128,7 +128,7 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/confirmarContraseña"
+                android:id="@+id/confirmarContrasena"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:drawableEnd="@drawable/password_icon"
@@ -148,7 +148,7 @@
 
 
             <Button
-                android:id="@+id/login"
+                android:id="@+id/btnRegister"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:backgroundTint="@color/my_primary"
