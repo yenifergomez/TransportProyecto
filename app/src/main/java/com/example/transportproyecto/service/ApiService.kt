@@ -16,6 +16,4 @@ interface ApiService {
     @POST("/api/register")
     fun registerUser(@Body registerRequest: RegisterRequest): Call<RegisterResponse>
 
-
-
 }
