@@ -70,7 +70,6 @@ class Login : AppCompatActivity() {
                         // UserManager.setUserId(userId)
 
                         move()
-                        finish()
                     }
                 } else {
                     Toast.makeText(this@Login, "Corrige tus credenciales", Toast.LENGTH_LONG).show()
