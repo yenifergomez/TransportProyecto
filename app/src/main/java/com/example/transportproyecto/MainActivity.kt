@@ -4,8 +4,13 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import androidx.navigation.findNavController
+import androidx.navigation.ui.AppBarConfiguration
+import androidx.navigation.ui.setupActionBarWithNavController
+import androidx.navigation.ui.setupWithNavController
 import com.example.transportproyecto.databinding.ActivityLoginBinding
 import com.example.transportproyecto.databinding.ActivityMainBinding
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import java.util.Timer
 import java.util.TimerTask
 
@@ -16,17 +21,40 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        clickListener()
 
-        /*val tiempoIni: TimerTask = object : TimerTask() {
-            override fun run() {
-                val intent = Intent(this@MainActivity, Login::class.java)
-                startActivity(intent)
-                finish()
-            }
+        binding.ButtonNosotros.setOnClickListener {
+            startActivity(Intent(this@MainActivity, Nosotros::class.java))
         }
-        val tiempo = Timer()
-        tiempo.schedule(tiempoIni, 4000)*/
+
+        binding.ButtonEmpresas.setOnClickListener {
+            startActivity(Intent(this@MainActivity, Empresas::class.java))
+        }
+
+        binding.ButtonForo.setOnClickListener {
+            startActivity(Intent(this@MainActivity, Foro::class.java))
+        }
+
+        binding.ButtonConfig.setOnClickListener {
+            startActivity(Intent(this@MainActivity, Config::class.java))
+        }
+
+        binding.ButtonPerfil.setOnClickListener {
+            startActivity(Intent(this@MainActivity, Perfil::class.java))
+        }
+
+
+
+
 
 
     }
-}
+
+    private fun clickListener() {
+        binding.ButtonNosotros.setOnClickListener{
+
+
+        }
+    }
+
+    }
