@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:background="#1070BC"
-        android:text="Mapas"
+        android:text="Ver Mapas"
         android:textColor="#ECE1E1"
         android:textSize="24sp"
         android:textStyle="bold"
