@@ -6,6 +6,6 @@ import android.os.Bundle
 class Foro : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_foro)
+        setContentView(R.layout.activity_editarforo)
     }
 }
