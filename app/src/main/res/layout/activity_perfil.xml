@@ -43,7 +43,7 @@
                 android:id="@+id/upload_content"
                 android:layout_width="45dp"
                 android:layout_height="45dp"
-                android:src="@drawable/upload"
+                android:src="@drawable/baseline_upload_24"
                 android:outlineProvider="background"
                 android:clipToOutline="true"
                 tools:ignore="ContentDescription,UnusedAttribute" />
@@ -176,7 +176,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
 
-                        android:inputType="textEmailAddress" />
+                        android:inputType="textEmailAddress"
+                        android:autofillHints=""
+                        tools:ignore="LabelFor" />
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
 
@@ -219,7 +221,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
 
-                        android:inputType="textEmailAddress" />
+                        android:inputType="textEmailAddress"
+                        android:autofillHints="" />
 
                 </androidx.cardview.widget.CardView>
 

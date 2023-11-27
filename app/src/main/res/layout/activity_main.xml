@@ -122,7 +122,7 @@
                     android:background="@color/my_primary"
                     android:backgroundTint="@color/white"
                     android:text="Registrarse"
-                    app:srcCompat="@drawable/person"
+                    app:srcCompat="@drawable/baseline_person_24"
                     android:layout_margin="12dp"/>
             </LinearLayout>
 
