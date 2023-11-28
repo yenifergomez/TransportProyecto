@@ -14,17 +14,16 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="400dp"
+        android:background="@color/my_primary"
         android:gravity="center"
         android:orientation="vertical"
-        android:padding="58dp"
-        android:background="@color/my_primary">
+        android:padding="58dp">
 
         <ImageView
             android:layout_width="238dp"
             android:layout_height="247dp"
             android:src="@drawable/logotransport" />
-
 
 
     </LinearLayout>
@@ -40,10 +39,10 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="426dp"
+            android:layout_height="377dp"
+            android:background="@color/my_primary"
             android:orientation="vertical"
-            android:padding="28dp"
-            android:background="@color/my_primary">
+            android:padding="28dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -56,9 +55,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:backgroundTint="@color/white"
+                android:fontFamily="@font/titulos"
                 android:text="Empresas"
-                app:cornerRadius="32dp"
-                android:textColor="@color/my_primary"/>
+                android:textColor="@color/my_primary"
+                android:textSize="24sp"
+                app:cornerRadius="32dp" />
 
             <View
                 android:layout_width="wrap_content"
@@ -69,9 +70,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:backgroundTint="@color/white"
+                android:fontFamily="@font/titulos"
                 android:text="Foro"
-                app:cornerRadius="32dp"
-                android:textColor="@color/my_primary"/>
+                android:textColor="@color/my_primary"
+                android:textSize="24sp"
+                app:cornerRadius="32dp" />
 
             <View
                 android:layout_width="wrap_content"
@@ -82,9 +85,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:backgroundTint="@color/white"
+                android:fontFamily="@font/titulos"
                 android:text="Nosotros"
-                app:cornerRadius="32dp"
-                android:textColor="@color/my_primary"/>
+                android:textColor="@color/my_primary"
+                android:textSize="24sp"
+                app:cornerRadius="32dp" />
 
             <View
                 android:layout_width="wrap_content"
@@ -94,8 +99,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:orientation="horizontal"
-                >
+                android:orientation="horizontal">
 
                 <ImageButton
                     android:id="@+id/ButtonConfig"
@@ -105,8 +109,7 @@
                     android:background="@color/white"
                     android:backgroundTint="@color/white"
                     app:cornerRadius="80dp"
-                    app:srcCompat="@drawable/config"
-                    />
+                    app:srcCompat="@drawable/config" />
 
 
                 <View
@@ -119,16 +122,12 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:layout_centerVertical="true"
+                    android:layout_margin="12dp"
                     android:background="@color/my_primary"
                     android:backgroundTint="@color/white"
                     android:text="Registrarse"
-                    app:srcCompat="@drawable/baseline_person_24"
-                    android:layout_margin="12dp"/>
+                    app:srcCompat="@drawable/person" />
             </LinearLayout>
-
-
-
-
 
 
         </LinearLayout>
