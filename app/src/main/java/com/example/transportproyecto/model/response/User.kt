@@ -6,6 +6,6 @@ data class User(
     val email: String,
     val password: String,
     val remember_token: String,
-    val created_at: String?,
+    val created_at: String,
     val updated_at: String?
 )

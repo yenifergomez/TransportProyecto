@@ -1,7 +1,8 @@
 package com.example.transportproyecto.model.response
 
-class CommentResponse {
+class CommentResponse (
+    val id: String,
+    val title: String,
+)
 
-   // val id: String,
-   // val title: String,
-}
+
