@@ -6,6 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".Config">
 
+
+
+
     <TextView
         android:id="@+id/titleTextView"
         android:layout_width="wrap_content"
@@ -14,6 +17,7 @@
         android:textSize="23sp"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="16dp"/>
+
 
     <TextView
         android:id="@+id/messageTextView"

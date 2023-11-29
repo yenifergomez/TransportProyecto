@@ -9,7 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/my_primary"
+        android:background="#02689F"
         android:alpha="0.7"/>
 
     <LinearLayout
@@ -55,7 +55,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/texto"
                 android:text="Recuperar Contraseña"
-                android:textColor="@color/my_primary"
+                android:textColor="#02689F"
                 android:textSize="30sp"
                 android:textStyle="bold" />
 
@@ -100,8 +100,9 @@
             <com.google.android.material.button.MaterialButton
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:backgroundTint="@color/my_primary"
+                android:backgroundTint="#02689F"
                 android:text="Iniciar Sesion"
+                android:fontFamily="@font/titulos"
                 app:cornerRadius="32dp" />
 
             <View

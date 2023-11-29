@@ -8,7 +8,9 @@
     android:columnCount="2"
     android:rowCount="2"
     android:padding="16dp"
-    android:background="@color/my_primary">
+    android:background="#02689F">
+
+
 
     <!-- Tarjeta 1 -->
     <androidx.cardview.widget.CardView
@@ -37,6 +39,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="TRASPUBENZA"
+
                 android:textSize="20sp"/>
 
             <Button
@@ -44,9 +47,10 @@
                 android:layout_width="112dp"
                 android:layout_height="40dp"
                 android:text="Ver Rutas"
+                android:fontFamily="@font/titulos"
                 android:textColor="@color/white"
 
-                android:backgroundTint="@color/my_primary"
+                android:backgroundTint="#02689F"
                 />
 
         </LinearLayout>
@@ -87,8 +91,9 @@
                 android:id="@+id/VerTranslibertad"
                 android:layout_width="112dp"
                 android:layout_height="40dp"
-                android:backgroundTint="@color/my_primary"
+                android:backgroundTint="#02689F"
                 android:text="Ver Rutas"
+                android:fontFamily="@font/titulos"
                 android:textColor="@color/white"
                 />
 
@@ -127,8 +132,9 @@
                 android:id="@+id/VerSotraCauca"
                 android:layout_width="112dp"
                 android:layout_height="40dp"
-                android:backgroundTint="@color/my_primary"
+                android:backgroundTint="#02689F"
                 android:text="Ver Rutas"
+                android:fontFamily="@font/titulos"
                 android:textColor="@color/white"
                 />
 
@@ -168,8 +174,9 @@
                 android:id="@+id/VerTrastambo"
                 android:layout_width="112dp"
                 android:layout_height="40dp"
-                android:backgroundTint="@color/my_primary"
+                android:backgroundTint="#02689F"
                 android:text="Ver Rutas"
+                android:fontFamily="@font/titulos"
                 android:textColor="@color/white"
                 />
 

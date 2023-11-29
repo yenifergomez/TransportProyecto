@@ -6,12 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".Editar_Perfil"
     android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#02689F"
+        android:elevation="4dp"
+        app:title="Editar perfil"
+
+        app:titleTextColor="#040404"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:ignore="UselessParent"
-        android:background="@color/material_dynamic_primary50">
+        android:background="@color/white">
 
         <LinearLayout
             android:id="@+id/layout_edit_profile"
@@ -30,12 +40,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/material_dynamic_primary40"
+                android:background="#02689F"
 
                 android:gravity="center"
-                android:padding="15sp"
+                android:padding="5sp"
                 android:text="@string/actualizar_perfil"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
+                android:fontFamily="@font/titulos"
                 android:textSize="30sp"/>
 
 
@@ -47,7 +58,8 @@
                 android:layout_margin="10sp"
                 android:layout_marginTop="15sp"
                 android:ems="15"
-                android:hint="@string/User"
+                android:hint="@string/Usuario"
+
                 android:textColor="#0c30ff"
                 android:textColorHint="#0c30ff"
                 app:boxBackgroundMode="outline"
@@ -74,7 +86,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="User"
-                    android:textColor="@color/my_primary"
+                    android:textColor="@color/black"
                     android:textSize="15sp"
                     app:hintAnimationEnabled="true"
                     app:errorEnabled="true"

@@ -10,6 +10,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:context=".ui.home.HomeFragment">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#02689F"
+                android:elevation="4dp"
+                app:title="Nosotros"
+                app:titleTextColor="#040404"
+                app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 
             <TextView
                 android:id="@+id/text_home"
@@ -42,6 +51,7 @@
                     android:gravity="center_horizontal"
                     android:text="TRANSPORTGPS\nEXPLORA TU CIUDAD"
                     android:textAlignment="center"
+                    android:fontFamily="@font/titulos"
                     android:textColor="#F1EFEF"
                     android:textSize="29sp" />
 
@@ -69,6 +79,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="340dp"
                     android:text="MISIÓN"
+                    android:fontFamily="@font/titulos"
                     android:textSize="29sp"
                     android:layout_marginStart="222dp"
                     android:layout_centerVertical="true"
@@ -79,11 +90,12 @@
                     android:layout_height="wrap_content"
                     android:text="Se busca orientar a las personas que usan el transporte público brindando información precisa y actualizada sobre las rutas, de modo que se puedan guiar a través del sistema de información."
                     android:textSize="18sp"
+
                     android:layout_toEndOf="@+id/imageView2"
                     android:layout_marginStart="16dp"
                     android:layout_centerVertical="true"
                     android:layout_toRightOf="@+id/imageView2"
-                    android:layout_marginLeft="16dp" />
+                    android:layout_marginLeft="1dp" />
 
             </RelativeLayout>
 
@@ -107,6 +119,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="340dp"
                     android:text="VISIÓN"
+                    android:fontFamily="@font/titulos"
                     android:textSize="29sp"
                     android:layout_marginStart="222dp"
                     android:layout_centerVertical="true"
@@ -143,6 +156,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="CREADORES"
+                    android:fontFamily="@font/titulos"
                     android:textSize="24sp"
                     android:textColor="#FDFDFD"
                     android:gravity="center"
