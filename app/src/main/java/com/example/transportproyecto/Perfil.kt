@@ -29,9 +29,9 @@ class Perfil : AppCompatActivity() {
         val userId = "123" // Reemplaza con la lógica para obtener el ID del usuario actual
         getUserProfile(apiService, userId)
 
-        /*binding.editarPerfil.setOnClickListener {
+        binding.editarPerfil.setOnClickListener {
             startActivity(Intent(this@Perfil, Editar_Perfil::class.java))
-        }*/
+        }
     }
 
     private fun getUserProfile(apiService: ApiService, userId: String) {
