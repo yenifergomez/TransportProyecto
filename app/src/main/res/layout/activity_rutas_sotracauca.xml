@@ -5,6 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".RutasSotracauca">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#02689F"
+        android:elevation="4dp"
+        app:title="Rutas"
+        app:titleTextColor="#040404"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        tools:ignore="MissingConstraints" />
+
 
 
     <!-- Imagen 1 -->
@@ -12,7 +23,7 @@
         android:id="@+id/ButtonSotra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="66dp"
         android:backgroundTint="@color/black"
         android:fontFamily="@font/titulos"
         android:text="Ver Mapas"
@@ -28,7 +39,7 @@
         android:id="@+id/image1"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="136dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/image2"
@@ -40,7 +51,7 @@
         android:id="@+id/image2"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="136dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toEndOf="@+id/image1"
         app:layout_constraintEnd_toEndOf="parent"

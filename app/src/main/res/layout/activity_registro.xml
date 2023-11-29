@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:alpha="0.7"
-        android:background="@color/my_primary" />
+        android:background="#02689F" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -53,7 +53,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Formulario de registro"
-                android:textColor="@color/my_primary"
+                android:fontFamily="@font/titulos"
+                android:textColor="#02689F"
                 android:textSize="25sp"
                 android:textStyle="bold" />
 
@@ -151,8 +152,9 @@
                 android:id="@+id/btnRegister"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:backgroundTint="@color/my_primary"
+                android:backgroundTint="#02689F"
                 android:text="Registrarse"
+                android:fontFamily="@font/titulos"
                 app:cornerRadius="32dp" />
 
             <View
@@ -181,7 +183,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:alpha="0.7"
-                android:text="Ir al inicio de sesion" />
+                android:text="Ir al inicio de sesion"
+                android:fontFamily="@font/titulos"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 

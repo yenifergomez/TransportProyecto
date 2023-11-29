@@ -10,6 +10,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:context=".MainActivity">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#02689F"
+            android:elevation="4dp"
+            app:title="Rutas"
+            app:titleTextColor="#040404"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
 
         <Button
             android:id="@+id/ButtonTransLibertad"
@@ -18,7 +28,7 @@
             android:text="Ver Mapas"
             android:textSize="24sp"
             android:textStyle="bold"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="66dp"
             android:backgroundTint="@color/black"
             android:fontFamily="@font/titulos"
             android:textColor="#ECE1E1"
@@ -33,7 +43,7 @@
             android:id="@+id/image1"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_marginTop="76dp"
+            android:layout_marginTop="136dp"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/image2"
@@ -45,7 +55,7 @@
             android:id="@+id/image2"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_marginTop="76dp"
+            android:layout_marginTop="136dp"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toEndOf="@+id/image1"
             app:layout_constraintEnd_toEndOf="parent"

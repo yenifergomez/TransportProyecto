@@ -10,6 +10,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#02689F"
+            android:elevation="4dp"
+            app:title="Mapas"
+            app:titleTextColor="#040404"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
 
         <!-- Primera sección con imagen de fondo y título -->
         <RelativeLayout

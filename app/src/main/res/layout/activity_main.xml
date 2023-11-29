@@ -10,12 +10,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:alpha="0.7"
-        android:background="@color/my_primary" />
+        android:background="#02689F" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="400dp"
-        android:background="@color/my_primary"
+        android:background="#02689F"
         android:gravity="center"
         android:orientation="vertical"
         android:padding="58dp">
@@ -40,7 +40,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="377dp"
-            android:background="@color/my_primary"
+            android:background="#0776B3"
             android:orientation="vertical"
             android:padding="28dp">
 
@@ -57,7 +57,7 @@
                 android:backgroundTint="@color/white"
                 android:fontFamily="@font/titulos"
                 android:text="Empresas"
-                android:textColor="@color/my_primary"
+                android:textColor="#02689F"
                 android:textSize="24sp"
                 app:cornerRadius="32dp" />
 
@@ -72,7 +72,7 @@
                 android:backgroundTint="@color/white"
                 android:fontFamily="@font/titulos"
                 android:text="Foro"
-                android:textColor="@color/my_primary"
+                android:textColor="#02689F"
                 android:textSize="24sp"
                 app:cornerRadius="32dp" />
 
@@ -87,7 +87,7 @@
                 android:backgroundTint="@color/white"
                 android:fontFamily="@font/titulos"
                 android:text="Nosotros"
-                android:textColor="@color/my_primary"
+                android:textColor="#02689F"
                 android:textSize="24sp"
                 app:cornerRadius="32dp" />
 
@@ -106,7 +106,7 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:layout_margin="12dp"
-                    android:background="@color/white"
+                    android:background="@color/black"
                     android:backgroundTint="@color/white"
                     app:cornerRadius="80dp"
                     app:srcCompat="@drawable/config" />
@@ -123,7 +123,7 @@
                     android:layout_height="40dp"
                     android:layout_centerVertical="true"
                     android:layout_margin="12dp"
-                    android:background="@color/my_primary"
+                    android:background="@color/black"
                     android:backgroundTint="@color/white"
                     android:text="Registrarse"
                     app:srcCompat="@drawable/person" />
