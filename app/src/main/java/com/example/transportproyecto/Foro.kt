@@ -24,7 +24,7 @@ class Foro : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnEditarForo.setOnClickListener {
-            startActivity(Intent(this@Foro, editar_foro::class.java))
+            startActivity(Intent(this@Foro, Login::class.java))
         }
     }
 

@@ -13,7 +13,7 @@
         android:background="#02689F"
         android:elevation="4dp"
         app:title="Rutas"
-        app:titleTextColor="#040404"
+        app:titleTextColor="@color/white"
         app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <Button

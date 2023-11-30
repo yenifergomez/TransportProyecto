@@ -14,7 +14,7 @@
         android:elevation="4dp"
         app:title="Editar perfil"
 
-        app:titleTextColor="#040404"
+        app:titleTextColor="@color/white"
         app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <ScrollView

@@ -12,14 +12,14 @@
         android:background="#02689F"
         android:elevation="4dp"
         app:title="Foro"
-        app:titleTextColor="#040404"
+        app:titleTextColor="@color/white"
         app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <Button
         android:id="@+id/btnEditarForo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Editar Foro"
+        android:text="Crear Comentario"
         android:backgroundTint="#02689F"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="76dp"

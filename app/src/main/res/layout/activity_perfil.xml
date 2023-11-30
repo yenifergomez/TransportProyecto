@@ -22,7 +22,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
             app:theme="@style/ThemeOverlay.AppCompat.Light"
-            app:titleTextColor="@color/black"
+            app:titleTextColor="@color/white"
             app:title="Perfil"
             >
         </androidx.appcompat.widget.Toolbar>
