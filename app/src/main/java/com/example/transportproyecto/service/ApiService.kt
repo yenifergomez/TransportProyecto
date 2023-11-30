@@ -48,7 +48,5 @@ interface ApiService {
         @DELETE("comments/{commentId}")
         fun deleteComment(@Path("commentId") commentId: String): Call<Void>
 
-
-
 }
 

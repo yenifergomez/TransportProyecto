@@ -10,7 +10,7 @@ object ApiClient {
 
 
 
-    const val baseUrl = "http://10.185.217.67:8000" //"http://192.168.10.79:8000" // Reemplaza esto con tu baseUrl
+    const val baseUrl = "http://192.168.80.28:8000" //"http://192.168.10.79:8000" // Reemplaza esto con tu baseUrl
 
 
 

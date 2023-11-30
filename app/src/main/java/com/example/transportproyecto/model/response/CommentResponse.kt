@@ -1,8 +1,11 @@
 package com.example.transportproyecto.model.response
 
-class CommentResponse (
+import org.w3c.dom.Comment
+
+data class CommentResponse (
     val id: String,
     val title: String,
+    val comment: String
 )
 
 

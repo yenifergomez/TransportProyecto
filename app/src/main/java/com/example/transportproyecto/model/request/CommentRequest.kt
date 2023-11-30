@@ -1,7 +1,7 @@
 package com.example.transportproyecto.model.request
 
-class CommentRequest {
+data class CommentRequest (
 
- //val title: String,
- //val comment: String,
-}
+ val title: String,
+ val comment: String,
+    )
